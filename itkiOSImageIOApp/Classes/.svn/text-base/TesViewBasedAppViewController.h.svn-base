@@ -1,0 +1,30 @@
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#include <iostream>
+#include "itkiOSImageIO.h"
+#include "ItkImage.h"
+#include "itkImportImageFilter.h"
+#include "itkImageFileReader.h" 
+#include "itkImageFileWriter.h" 
+#include "itkRGBPixel.h"
+#include "itkRGBAPixel.h"
+#include "itkRescaleIntensityImageFilter.h" 
+#include "itkBinaryThresholdImageFilter.h" 
+#include "itkRGBToLuminanceImageFilter.h"
+
+@interface TesViewBasedAppViewController : UIViewController {
+    IBOutlet UIButton *button;
+    IBOutlet UIImageView *image;
+    IBOutlet UIButton *filterButton;
+	UIImagePickerController *imagePicker;
+	UIImage* currentImage;
+}
+- (IBAction)grabImage;
+- (IBAction)performFiltering;
+
+@property(nonatomic,retain) UIImagePickerController *imagePicker;
+
+- (void)imagePickerController:(UIImagePickerController *)picker 
+		didFinishPickingImage:(UIImage *)img 
+				  editingInfo:(NSDictionary *)editInfo;
+@end

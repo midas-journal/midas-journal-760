@@ -1,0 +1,447 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D3623260D0F684500981E51 /* TesViewBasedAppAppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* TesViewBasedAppAppDelegate.mm */; };
+		1D60589B0D05DD56006BFB54 /* main.mm in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.mm */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765A40DF7441C002DB57D /* CoreGraphics.framework */; };
+		2899E5220DE3E06400AC0155 /* TesViewBasedAppViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2899E5210DE3E06400AC0155 /* TesViewBasedAppViewController.xib */; };
+		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
+		28D7ACF80DDB3853001CB0EB /* TesViewBasedAppViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 28D7ACF70DDB3853001CB0EB /* TesViewBasedAppViewController.mm */; };
+		8E9B933611A20E810006E8EC /* itkiOSImageIO.mm in Sources */ = {isa = PBXBuildFile; fileRef = 8E9B933511A20E810006E8EC /* itkiOSImageIO.mm */; };
+		8E9B936711A20F2C0006E8EC /* libITKAlgorithms.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E9B934911A20F2C0006E8EC /* libITKAlgorithms.a */; };
+		8E9B936811A20F2C0006E8EC /* libITKBasicFilters.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E9B934A11A20F2C0006E8EC /* libITKBasicFilters.a */; };
+		8E9B936911A20F2C0006E8EC /* libITKCommon.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E9B934B11A20F2C0006E8EC /* libITKCommon.a */; };
+		8E9B936A11A20F2C0006E8EC /* libITKDICOMParser.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E9B934C11A20F2C0006E8EC /* libITKDICOMParser.a */; };
+		8E9B936B11A20F2C0006E8EC /* libITKEXPAT.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E9B934D11A20F2C0006E8EC /* libITKEXPAT.a */; };
+		8E9B936C11A20F2C0006E8EC /* libITKFEM.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E9B934E11A20F2C0006E8EC /* libITKFEM.a */; };
+		8E9B936D11A20F2C0006E8EC /* libitkgdcm.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E9B934F11A20F2C0006E8EC /* libitkgdcm.a */; };
+		8E9B936E11A20F2C0006E8EC /* libITKIO.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E9B935011A20F2C0006E8EC /* libITKIO.a */; };
+		8E9B936F11A20F2C0006E8EC /* libitkjpeg8.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E9B935111A20F2C0006E8EC /* libitkjpeg8.a */; };
+		8E9B937011A20F2C0006E8EC /* libitkjpeg12.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E9B935211A20F2C0006E8EC /* libitkjpeg12.a */; };
+		8E9B937111A20F2C0006E8EC /* libitkjpeg16.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E9B935311A20F2C0006E8EC /* libitkjpeg16.a */; };
+		8E9B937211A20F2C0006E8EC /* libITKMetaIO.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E9B935411A20F2C0006E8EC /* libITKMetaIO.a */; };
+		8E9B937311A20F2C0006E8EC /* libitkNetlibSlatec.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E9B935511A20F2C0006E8EC /* libitkNetlibSlatec.a */; };
+		8E9B937411A20F2C0006E8EC /* libITKniftiio.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E9B935611A20F2C0006E8EC /* libITKniftiio.a */; };
+		8E9B937511A20F2C0006E8EC /* libITKNrrdIO.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E9B935711A20F2C0006E8EC /* libITKNrrdIO.a */; };
+		8E9B937611A20F2C0006E8EC /* libITKNumerics.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E9B935811A20F2C0006E8EC /* libITKNumerics.a */; };
+		8E9B937711A20F2C0006E8EC /* libitkopenjpeg.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E9B935911A20F2C0006E8EC /* libitkopenjpeg.a */; };
+		8E9B937811A20F2C0006E8EC /* libitkpng.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E9B935A11A20F2C0006E8EC /* libitkpng.a */; };
+		8E9B937911A20F2C0006E8EC /* libITKSpatialObject.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E9B935B11A20F2C0006E8EC /* libITKSpatialObject.a */; };
+		8E9B937A11A20F2C0006E8EC /* libITKStatistics.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E9B935C11A20F2C0006E8EC /* libITKStatistics.a */; };
+		8E9B937B11A20F2C0006E8EC /* libitksys.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E9B935D11A20F2C0006E8EC /* libitksys.a */; };
+		8E9B937C11A20F2C0006E8EC /* libitktestlib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E9B935E11A20F2C0006E8EC /* libitktestlib.a */; };
+		8E9B937D11A20F2C0006E8EC /* libitktiff.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E9B935F11A20F2C0006E8EC /* libitktiff.a */; };
+		8E9B937E11A20F2C0006E8EC /* libitkv3p_netlib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E9B936011A20F2C0006E8EC /* libitkv3p_netlib.a */; };
+		8E9B937F11A20F2C0006E8EC /* libitkvcl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E9B936111A20F2C0006E8EC /* libitkvcl.a */; };
+		8E9B938011A20F2C0006E8EC /* libitkvnl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E9B936211A20F2C0006E8EC /* libitkvnl.a */; };
+		8E9B938111A20F2C0006E8EC /* libitkvnl_algo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E9B936311A20F2C0006E8EC /* libitkvnl_algo.a */; };
+		8E9B938211A20F2C0006E8EC /* libitkvnl_inst.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E9B936411A20F2C0006E8EC /* libitkvnl_inst.a */; };
+		8E9B938311A20F2C0006E8EC /* libitkzlib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E9B936511A20F2C0006E8EC /* libitkzlib.a */; };
+		8E9B938411A20F2C0006E8EC /* libITKznz.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E9B936611A20F2C0006E8EC /* libITKznz.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* TesViewBasedAppAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TesViewBasedAppAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* TesViewBasedAppAppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = TesViewBasedAppAppDelegate.mm; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* TesViewBasedApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TesViewBasedApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		288765A40DF7441C002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2899E5210DE3E06400AC0155 /* TesViewBasedAppViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TesViewBasedAppViewController.xib; sourceTree = "<group>"; };
+		28AD733E0D9D9553002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		28D7ACF60DDB3853001CB0EB /* TesViewBasedAppViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TesViewBasedAppViewController.h; sourceTree = "<group>"; };
+		28D7ACF70DDB3853001CB0EB /* TesViewBasedAppViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = TesViewBasedAppViewController.mm; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = main.mm; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* TesViewBasedApp_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TesViewBasedApp_Prefix.pch; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* TesViewBasedApp-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "TesViewBasedApp-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		8E9B933411A20E810006E8EC /* itkiOSImageIO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = itkiOSImageIO.h; sourceTree = "<group>"; };
+		8E9B933511A20E810006E8EC /* itkiOSImageIO.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = itkiOSImageIO.mm; sourceTree = "<group>"; };
+		8E9B934911A20F2C0006E8EC /* libITKAlgorithms.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libITKAlgorithms.a; path = "../../../../ITKBuild3/bin/Release-iphonesimulator/libITKAlgorithms.a"; sourceTree = SOURCE_ROOT; };
+		8E9B934A11A20F2C0006E8EC /* libITKBasicFilters.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libITKBasicFilters.a; path = "../../../../ITKBuild3/bin/Release-iphonesimulator/libITKBasicFilters.a"; sourceTree = SOURCE_ROOT; };
+		8E9B934B11A20F2C0006E8EC /* libITKCommon.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libITKCommon.a; path = "../../../../ITKBuild3/bin/Release-iphonesimulator/libITKCommon.a"; sourceTree = SOURCE_ROOT; };
+		8E9B934C11A20F2C0006E8EC /* libITKDICOMParser.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libITKDICOMParser.a; path = "../../../../ITKBuild3/bin/Release-iphonesimulator/libITKDICOMParser.a"; sourceTree = SOURCE_ROOT; };
+		8E9B934D11A20F2C0006E8EC /* libITKEXPAT.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libITKEXPAT.a; path = "../../../../ITKBuild3/bin/Release-iphonesimulator/libITKEXPAT.a"; sourceTree = SOURCE_ROOT; };
+		8E9B934E11A20F2C0006E8EC /* libITKFEM.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libITKFEM.a; path = "../../../../ITKBuild3/bin/Release-iphonesimulator/libITKFEM.a"; sourceTree = SOURCE_ROOT; };
+		8E9B934F11A20F2C0006E8EC /* libitkgdcm.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libitkgdcm.a; path = "../../../../ITKBuild3/bin/Release-iphonesimulator/libitkgdcm.a"; sourceTree = SOURCE_ROOT; };
+		8E9B935011A20F2C0006E8EC /* libITKIO.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libITKIO.a; path = "../../../../ITKBuild3/bin/Release-iphonesimulator/libITKIO.a"; sourceTree = SOURCE_ROOT; };
+		8E9B935111A20F2C0006E8EC /* libitkjpeg8.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libitkjpeg8.a; path = "../../../../ITKBuild3/bin/Release-iphonesimulator/libitkjpeg8.a"; sourceTree = SOURCE_ROOT; };
+		8E9B935211A20F2C0006E8EC /* libitkjpeg12.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libitkjpeg12.a; path = "../../../../ITKBuild3/bin/Release-iphonesimulator/libitkjpeg12.a"; sourceTree = SOURCE_ROOT; };
+		8E9B935311A20F2C0006E8EC /* libitkjpeg16.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libitkjpeg16.a; path = "../../../../ITKBuild3/bin/Release-iphonesimulator/libitkjpeg16.a"; sourceTree = SOURCE_ROOT; };
+		8E9B935411A20F2C0006E8EC /* libITKMetaIO.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libITKMetaIO.a; path = "../../../../ITKBuild3/bin/Release-iphonesimulator/libITKMetaIO.a"; sourceTree = SOURCE_ROOT; };
+		8E9B935511A20F2C0006E8EC /* libitkNetlibSlatec.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libitkNetlibSlatec.a; path = "../../../../ITKBuild3/bin/Release-iphonesimulator/libitkNetlibSlatec.a"; sourceTree = SOURCE_ROOT; };
+		8E9B935611A20F2C0006E8EC /* libITKniftiio.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libITKniftiio.a; path = "../../../../ITKBuild3/bin/Release-iphonesimulator/libITKniftiio.a"; sourceTree = SOURCE_ROOT; };
+		8E9B935711A20F2C0006E8EC /* libITKNrrdIO.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libITKNrrdIO.a; path = "../../../../ITKBuild3/bin/Release-iphonesimulator/libITKNrrdIO.a"; sourceTree = SOURCE_ROOT; };
+		8E9B935811A20F2C0006E8EC /* libITKNumerics.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libITKNumerics.a; path = "../../../../ITKBuild3/bin/Release-iphonesimulator/libITKNumerics.a"; sourceTree = SOURCE_ROOT; };
+		8E9B935911A20F2C0006E8EC /* libitkopenjpeg.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libitkopenjpeg.a; path = "../../../../ITKBuild3/bin/Release-iphonesimulator/libitkopenjpeg.a"; sourceTree = SOURCE_ROOT; };
+		8E9B935A11A20F2C0006E8EC /* libitkpng.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libitkpng.a; path = "../../../../ITKBuild3/bin/Release-iphonesimulator/libitkpng.a"; sourceTree = SOURCE_ROOT; };
+		8E9B935B11A20F2C0006E8EC /* libITKSpatialObject.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libITKSpatialObject.a; path = "../../../../ITKBuild3/bin/Release-iphonesimulator/libITKSpatialObject.a"; sourceTree = SOURCE_ROOT; };
+		8E9B935C11A20F2C0006E8EC /* libITKStatistics.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libITKStatistics.a; path = "../../../../ITKBuild3/bin/Release-iphonesimulator/libITKStatistics.a"; sourceTree = SOURCE_ROOT; };
+		8E9B935D11A20F2C0006E8EC /* libitksys.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libitksys.a; path = "../../../../ITKBuild3/bin/Release-iphonesimulator/libitksys.a"; sourceTree = SOURCE_ROOT; };
+		8E9B935E11A20F2C0006E8EC /* libitktestlib.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libitktestlib.a; path = "../../../../ITKBuild3/bin/Release-iphonesimulator/libitktestlib.a"; sourceTree = SOURCE_ROOT; };
+		8E9B935F11A20F2C0006E8EC /* libitktiff.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libitktiff.a; path = "../../../../ITKBuild3/bin/Release-iphonesimulator/libitktiff.a"; sourceTree = SOURCE_ROOT; };
+		8E9B936011A20F2C0006E8EC /* libitkv3p_netlib.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libitkv3p_netlib.a; path = "../../../../ITKBuild3/bin/Release-iphonesimulator/libitkv3p_netlib.a"; sourceTree = SOURCE_ROOT; };
+		8E9B936111A20F2C0006E8EC /* libitkvcl.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libitkvcl.a; path = "../../../../ITKBuild3/bin/Release-iphonesimulator/libitkvcl.a"; sourceTree = SOURCE_ROOT; };
+		8E9B936211A20F2C0006E8EC /* libitkvnl.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libitkvnl.a; path = "../../../../ITKBuild3/bin/Release-iphonesimulator/libitkvnl.a"; sourceTree = SOURCE_ROOT; };
+		8E9B936311A20F2C0006E8EC /* libitkvnl_algo.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libitkvnl_algo.a; path = "../../../../ITKBuild3/bin/Release-iphonesimulator/libitkvnl_algo.a"; sourceTree = SOURCE_ROOT; };
+		8E9B936411A20F2C0006E8EC /* libitkvnl_inst.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libitkvnl_inst.a; path = "../../../../ITKBuild3/bin/Release-iphonesimulator/libitkvnl_inst.a"; sourceTree = SOURCE_ROOT; };
+		8E9B936511A20F2C0006E8EC /* libitkzlib.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libitkzlib.a; path = "../../../../ITKBuild3/bin/Release-iphonesimulator/libitkzlib.a"; sourceTree = SOURCE_ROOT; };
+		8E9B936611A20F2C0006E8EC /* libITKznz.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libITKznz.a; path = "../../../../ITKBuild3/bin/Release-iphonesimulator/libITKznz.a"; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */,
+				8E9B936711A20F2C0006E8EC /* libITKAlgorithms.a in Frameworks */,
+				8E9B936811A20F2C0006E8EC /* libITKBasicFilters.a in Frameworks */,
+				8E9B936911A20F2C0006E8EC /* libITKCommon.a in Frameworks */,
+				8E9B936A11A20F2C0006E8EC /* libITKDICOMParser.a in Frameworks */,
+				8E9B936B11A20F2C0006E8EC /* libITKEXPAT.a in Frameworks */,
+				8E9B936C11A20F2C0006E8EC /* libITKFEM.a in Frameworks */,
+				8E9B936D11A20F2C0006E8EC /* libitkgdcm.a in Frameworks */,
+				8E9B936E11A20F2C0006E8EC /* libITKIO.a in Frameworks */,
+				8E9B936F11A20F2C0006E8EC /* libitkjpeg8.a in Frameworks */,
+				8E9B937011A20F2C0006E8EC /* libitkjpeg12.a in Frameworks */,
+				8E9B937111A20F2C0006E8EC /* libitkjpeg16.a in Frameworks */,
+				8E9B937211A20F2C0006E8EC /* libITKMetaIO.a in Frameworks */,
+				8E9B937311A20F2C0006E8EC /* libitkNetlibSlatec.a in Frameworks */,
+				8E9B937411A20F2C0006E8EC /* libITKniftiio.a in Frameworks */,
+				8E9B937511A20F2C0006E8EC /* libITKNrrdIO.a in Frameworks */,
+				8E9B937611A20F2C0006E8EC /* libITKNumerics.a in Frameworks */,
+				8E9B937711A20F2C0006E8EC /* libitkopenjpeg.a in Frameworks */,
+				8E9B937811A20F2C0006E8EC /* libitkpng.a in Frameworks */,
+				8E9B937911A20F2C0006E8EC /* libITKSpatialObject.a in Frameworks */,
+				8E9B937A11A20F2C0006E8EC /* libITKStatistics.a in Frameworks */,
+				8E9B937B11A20F2C0006E8EC /* libitksys.a in Frameworks */,
+				8E9B937C11A20F2C0006E8EC /* libitktestlib.a in Frameworks */,
+				8E9B937D11A20F2C0006E8EC /* libitktiff.a in Frameworks */,
+				8E9B937E11A20F2C0006E8EC /* libitkv3p_netlib.a in Frameworks */,
+				8E9B937F11A20F2C0006E8EC /* libitkvcl.a in Frameworks */,
+				8E9B938011A20F2C0006E8EC /* libitkvnl.a in Frameworks */,
+				8E9B938111A20F2C0006E8EC /* libitkvnl_algo.a in Frameworks */,
+				8E9B938211A20F2C0006E8EC /* libitkvnl_inst.a in Frameworks */,
+				8E9B938311A20F2C0006E8EC /* libitkzlib.a in Frameworks */,
+				8E9B938411A20F2C0006E8EC /* libITKznz.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				8E9B933311A20E600006E8EC /* itkiOSImageIO */,
+				8E9B933111A20E480006E8EC /* itkiOSImageFactoryIO */,
+				1D3623240D0F684500981E51 /* TesViewBasedAppAppDelegate.h */,
+				1D3623250D0F684500981E51 /* TesViewBasedAppAppDelegate.mm */,
+				28D7ACF60DDB3853001CB0EB /* TesViewBasedAppViewController.h */,
+				28D7ACF70DDB3853001CB0EB /* TesViewBasedAppViewController.mm */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* TesViewBasedApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* TesViewBasedApp_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.mm */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2899E5210DE3E06400AC0155 /* TesViewBasedAppViewController.xib */,
+				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
+				8D1107310486CEB800E47090 /* TesViewBasedApp-Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8E9B934811A20F1C0006E8EC /* itkLibraries */,
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				288765A40DF7441C002DB57D /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8E9B933111A20E480006E8EC /* itkiOSImageFactoryIO */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = itkiOSImageFactoryIO;
+			sourceTree = "<group>";
+		};
+		8E9B933311A20E600006E8EC /* itkiOSImageIO */ = {
+			isa = PBXGroup;
+			children = (
+				8E9B933411A20E810006E8EC /* itkiOSImageIO.h */,
+				8E9B933511A20E810006E8EC /* itkiOSImageIO.mm */,
+			);
+			name = itkiOSImageIO;
+			sourceTree = "<group>";
+		};
+		8E9B934811A20F1C0006E8EC /* itkLibraries */ = {
+			isa = PBXGroup;
+			children = (
+				8EFC6E9B122DF54300DD736B /* Device */,
+				8EFC6DEA122DF53400DD736B /* Simulator */,
+			);
+			name = itkLibraries;
+			sourceTree = "<group>";
+		};
+		8EFC6DEA122DF53400DD736B /* Simulator */ = {
+			isa = PBXGroup;
+			children = (
+				8E9B934911A20F2C0006E8EC /* libITKAlgorithms.a */,
+				8E9B934A11A20F2C0006E8EC /* libITKBasicFilters.a */,
+				8E9B934B11A20F2C0006E8EC /* libITKCommon.a */,
+				8E9B934C11A20F2C0006E8EC /* libITKDICOMParser.a */,
+				8E9B934D11A20F2C0006E8EC /* libITKEXPAT.a */,
+				8E9B934E11A20F2C0006E8EC /* libITKFEM.a */,
+				8E9B934F11A20F2C0006E8EC /* libitkgdcm.a */,
+				8E9B935011A20F2C0006E8EC /* libITKIO.a */,
+				8E9B935111A20F2C0006E8EC /* libitkjpeg8.a */,
+				8E9B935211A20F2C0006E8EC /* libitkjpeg12.a */,
+				8E9B935311A20F2C0006E8EC /* libitkjpeg16.a */,
+				8E9B935411A20F2C0006E8EC /* libITKMetaIO.a */,
+				8E9B935511A20F2C0006E8EC /* libitkNetlibSlatec.a */,
+				8E9B935611A20F2C0006E8EC /* libITKniftiio.a */,
+				8E9B935711A20F2C0006E8EC /* libITKNrrdIO.a */,
+				8E9B935811A20F2C0006E8EC /* libITKNumerics.a */,
+				8E9B935911A20F2C0006E8EC /* libitkopenjpeg.a */,
+				8E9B935A11A20F2C0006E8EC /* libitkpng.a */,
+				8E9B935B11A20F2C0006E8EC /* libITKSpatialObject.a */,
+				8E9B935C11A20F2C0006E8EC /* libITKStatistics.a */,
+				8E9B935D11A20F2C0006E8EC /* libitksys.a */,
+				8E9B935E11A20F2C0006E8EC /* libitktestlib.a */,
+				8E9B935F11A20F2C0006E8EC /* libitktiff.a */,
+				8E9B936011A20F2C0006E8EC /* libitkv3p_netlib.a */,
+				8E9B936111A20F2C0006E8EC /* libitkvcl.a */,
+				8E9B936211A20F2C0006E8EC /* libitkvnl.a */,
+				8E9B936311A20F2C0006E8EC /* libitkvnl_algo.a */,
+				8E9B936411A20F2C0006E8EC /* libitkvnl_inst.a */,
+				8E9B936511A20F2C0006E8EC /* libitkzlib.a */,
+				8E9B936611A20F2C0006E8EC /* libITKznz.a */,
+			);
+			name = Simulator;
+			sourceTree = "<group>";
+		};
+		8EFC6E9B122DF54300DD736B /* Device */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Device;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* TesViewBasedApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "TesViewBasedApp" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TesViewBasedApp;
+			productName = TesViewBasedApp;
+			productReference = 1D6058910D05DD3D006BFB54 /* TesViewBasedApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "TesViewBasedApp" */;
+			compatibilityVersion = "Xcode 3.1";
+			hasScannedForEncodings = 1;
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* TesViewBasedApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
+				2899E5220DE3E06400AC0155 /* TesViewBasedAppViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.mm in Sources */,
+				1D3623260D0F684500981E51 /* TesViewBasedAppAppDelegate.mm in Sources */,
+				28D7ACF80DDB3853001CB0EB /* TesViewBasedAppViewController.mm in Sources */,
+				8E9B933611A20E810006E8EC /* itkiOSImageIO.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = TesViewBasedApp_Prefix.pch;
+				INFOPLIST_FILE = "TesViewBasedApp-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../School/CMPT/888/project/ITKBuild3/bin/Release-iphoneos\"",
+				);
+				PRODUCT_NAME = TesViewBasedApp;
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = TesViewBasedApp_Prefix.pch;
+				INFOPLIST_FILE = "TesViewBasedApp-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../School/CMPT/888/project/ITKBuild3/bin/Release-iphoneos\"",
+				);
+				PRODUCT_NAME = TesViewBasedApp;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = iphoneos3.1.3;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FilterFolder = $ITK_SOURCE_DIR/code/BasicFilters;
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					$ITK_SOURCE_DIR/Code/BasicFilters,
+					$ITKCommonFolder,
+					$ITK_BINARY_DIR,
+					$VXLCoreFolder,
+					$VCLFolder,
+					$VCLXcodeBuildFolder,
+					$VXLCoreXcodeBuildFolder,
+					$FilterFolder,
+					$IOFolder,
+					$UtilitiesXcodeBuildFolder,
+				);
+				IOFolder = $ITK_SOURCE_DIR/Code/IO;
+				ITKCommonFolder = $ITK_SOURCE_DIR/Code/Common;
+				ITK_BINARY_DIR = "~/Desktop/School/CMPT/888/project/ITKBuild3";
+				ITK_SOURCE_DIR = "~/Desktop/School/CMPT/888/project/InsightToolkit-3.16.0";
+				LIBRARY_SEARCH_PATHS = "$ITK_BINARY_DIR/bin/Release-iphonesimulator";
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				SDKROOT = iphoneos3.1.3;
+				UtilitiesXcodeBuildFolder = $ITK_BINARY_DIR/Utilities;
+				VCLFolder = $ITK_SOURCE_DIR/Utilities/vxl/vcl;
+				VCLXcodeBuildFolder = $ITK_BINARY_DIR/Utilities/vxl/vcl;
+				VXLCoreFolder = $ITK_SOURCE_DIR/Utilities/vxl/core/;
+				VXLCoreXcodeBuildFolder = $ITK_BINARY_DIR/Utilities/vxl/core;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "TesViewBasedApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "TesViewBasedApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

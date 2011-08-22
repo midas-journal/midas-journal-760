@@ -1,0 +1,23 @@
+//
+//  main.m
+//  TesViewBasedApp
+//
+//  Created by Boris Shabash, Ghassan Hamarneh,  Zhi Feng Huang , and Luis Ibanez on17/05/10.
+//  Copyright __MyCompanyName__ 2010. All rights reserved.
+//
+
+#import <UIKit/UIKit.h>
+#include <iostream>
+#include "ItkImage.h"
+#include "itkImportImageFilter.h"
+#include "itkiOSImageIO.h"
+#include "itkImageFileReader.h" 
+#include "itkImageFileWriter.h" 
+
+int main(int argc, char *argv[]) {
+    
+    NSAutoreleasePool * pool = [[NSAutoreleasePool alloc] init];
+    int retVal = UIApplicationMain(argc, argv, nil, nil);
+    [pool release];
+    return retVal;
+}
